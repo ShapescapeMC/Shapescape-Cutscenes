@@ -1,4 +1,5 @@
 {
+	"description": "Regolith filter for creating cutscenes for dialogues and controlling camera movement.",
 	"filters": [
 		{
 			"runWith": "python",
