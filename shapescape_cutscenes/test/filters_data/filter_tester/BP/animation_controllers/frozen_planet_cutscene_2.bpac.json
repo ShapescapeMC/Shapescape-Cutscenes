@@ -1,0 +1,36 @@
+{
+	"format_version": "1.17.0",
+	"animation_controllers": {
+		"controller.animation.frozen_planet_cutscene_2.default": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"default_s0": "1.0"
+						}
+					]
+				},
+				"end": {
+					"on_entry": [
+						"@s despawn"
+					]
+				},
+				"default_s0": {
+					"transitions": [
+						{
+							"end": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_2.default_s0_0",
+						"frozen_planet_cutscene_2.default_s0_1",
+						"frozen_planet_cutscene_2.default_s0_2",
+						"frozen_planet_cutscene_2.default_s0_3",
+						"frozen_planet_cutscene_2.default_s0_4"
+					]
+				}
+			}
+		}
+	}
+}

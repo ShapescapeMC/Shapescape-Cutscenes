@@ -1,0 +1,235 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"sounds.cutscenes.polar_bear_1": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_1",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_2": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_2",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_3": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_3",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_4": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_4",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_5": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_5",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_6": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_6",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_7": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_7",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_8": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_8",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_9": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_9",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_10": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_10",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.cutscenes.polar_bear_11": {
+			"sounds": [
+				{
+					"name": "sounds/cutscenes/polar_bear_11",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.starwars.obi_wan.male.hello": {
+			"sounds": [
+				{
+					"name": "sounds/starwars/obi_wan/male/hello",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.starwars.grevious.male.general_kenobi": {
+			"sounds": [
+				{
+					"name": "sounds/starwars/grevious/male/general_kenobi",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.starwars.rd2d.beep_boop": {
+			"sounds": [
+				{
+					"name": "sounds/starwars/rd2d/beep_boop",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.starwars.obi_wan.female.hello": {
+			"sounds": [
+				{
+					"name": "sounds/starwars/obi_wan/female/hello",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.starwars.grevious.apache_helicopter.general_kenobi": {
+			"sounds": [
+				{
+					"name": "sounds/starwars/grevious/apache_helicopter/general_kenobi",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.zmd.female.2": {
+			"sounds": [
+				{
+					"name": "sounds/zmd/female.2",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.zmd.female.3": {
+			"sounds": [
+				{
+					"name": "sounds/zmd/female.3",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.zmd.female.4": {
+			"sounds": [
+				{
+					"name": "sounds/zmd/female.4",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.zmd.female.5": {
+			"sounds": [
+				{
+					"name": "sounds/zmd/female.5",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.zmd.female.6": {
+			"sounds": [
+				{
+					"name": "sounds/zmd/female.6",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.zmd.female.7": {
+			"sounds": [
+				{
+					"name": "sounds/zmd/female.7",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"sounds.zmd.female.8": {
+			"sounds": [
+				{
+					"name": "sounds/zmd/female.8",
+					"is3D": false,
+					"stream": true,
+					"load_on_low_memory": true
+				}
+			]
+		}
+	}
+}

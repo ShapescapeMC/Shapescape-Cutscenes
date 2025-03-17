@@ -1,1 +1,2 @@
-git+https://github.com/ShapescapeMC/shapescape-dialogue-2@0.8.0
+# -e "../../shapescape-dialogue-2"
+git+https://github.com/ShapescapeMC/shapescape-dialogue-2@0.8.1

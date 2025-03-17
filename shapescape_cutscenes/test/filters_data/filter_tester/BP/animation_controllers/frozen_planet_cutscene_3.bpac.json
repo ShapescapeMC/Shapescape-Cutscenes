@@ -1,0 +1,130 @@
+{
+	"format_version": "1.17.0",
+	"animation_controllers": {
+		"controller.animation.frozen_planet_cutscene_3.default": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"default_s0": "1.0"
+						}
+					]
+				},
+				"end": {
+					"on_entry": [
+						"@s despawn"
+					]
+				},
+				"default_s0": {
+					"transitions": [
+						{
+							"default_s1": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s0_0",
+						"frozen_planet_cutscene_3.default_s0_1"
+					]
+				},
+				"default_s1": {
+					"transitions": [
+						{
+							"default_s2": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s1_0",
+						"frozen_planet_cutscene_3.default_s1_1"
+					]
+				},
+				"default_s2": {
+					"transitions": [
+						{
+							"default_s3": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s2_0",
+						"frozen_planet_cutscene_3.default_s2_1"
+					]
+				},
+				"default_s3": {
+					"transitions": [
+						{
+							"default_s4": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s3_0",
+						"frozen_planet_cutscene_3.default_s3_1"
+					]
+				},
+				"default_s4": {
+					"transitions": [
+						{
+							"default_s5": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s4_0"
+					]
+				},
+				"default_s5": {
+					"transitions": [
+						{
+							"default_s6": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s5_0",
+						"frozen_planet_cutscene_3.default_s5_1"
+					]
+				},
+				"default_s6": {
+					"transitions": [
+						{
+							"default_s7": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s6_0",
+						"frozen_planet_cutscene_3.default_s6_1"
+					]
+				},
+				"default_s7": {
+					"transitions": [
+						{
+							"default_s8": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s7_0",
+						"frozen_planet_cutscene_3.default_s7_1",
+						"frozen_planet_cutscene_3.default_s7_2"
+					]
+				},
+				"default_s8": {
+					"transitions": [
+						{
+							"default_s9": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s8_0"
+					]
+				},
+				"default_s9": {
+					"transitions": [
+						{
+							"end": "q.all_animations_finished"
+						}
+					],
+					"animations": [
+						"frozen_planet_cutscene_3.default_s9_0"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,2 @@
+titleraw @a actionbar {"rawtext":[{"translate":"dialogue.frozen_planet_cutscene_2.1","with":["\n"]}]}
+execute at @e[type=shapescape:seal_actor] positioned ~~~ run tp @s ^ ^ ^0.1 facing @e[type=shapescape:ai_goal,c=1]

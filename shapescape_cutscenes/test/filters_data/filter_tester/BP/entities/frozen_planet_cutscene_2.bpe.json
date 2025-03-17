@@ -1,0 +1,77 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "shapescape:frozen_planet_cutscene_2",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"animations": {
+				"frozen_planet_cutscene_2.default_s0_0": "animation.frozen_planet_cutscene_2.default_s0_0",
+				"frozen_planet_cutscene_2.default_s0_1": "animation.frozen_planet_cutscene_2.default_s0_1",
+				"frozen_planet_cutscene_2.default_s0_2": "animation.frozen_planet_cutscene_2.default_s0_2",
+				"frozen_planet_cutscene_2.default_s0_3": "animation.frozen_planet_cutscene_2.default_s0_3",
+				"frozen_planet_cutscene_2.default_s0_4": "animation.frozen_planet_cutscene_2.default_s0_4",
+				"frozen_planet_cutscene_2.default_controller": "controller.animation.frozen_planet_cutscene_2.default"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"frozen_planet_cutscene_2.default_controller": "q.variant == 0"
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"frozen_planet_cutscene_2.default": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"cutscene"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 0
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"frozen_planet_cutscene_2.default": {
+				"add": {
+					"component_groups": [
+						"frozen_planet_cutscene_2.default"
+					]
+				}
+			}
+		}
+	}
+}

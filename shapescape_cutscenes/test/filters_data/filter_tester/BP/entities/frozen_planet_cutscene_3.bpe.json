@@ -1,0 +1,90 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "shapescape:frozen_planet_cutscene_3",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"animations": {
+				"frozen_planet_cutscene_3.default_s0_0": "animation.frozen_planet_cutscene_3.default_s0_0",
+				"frozen_planet_cutscene_3.default_s0_1": "animation.frozen_planet_cutscene_3.default_s0_1",
+				"frozen_planet_cutscene_3.default_s1_0": "animation.frozen_planet_cutscene_3.default_s1_0",
+				"frozen_planet_cutscene_3.default_s1_1": "animation.frozen_planet_cutscene_3.default_s1_1",
+				"frozen_planet_cutscene_3.default_s2_0": "animation.frozen_planet_cutscene_3.default_s2_0",
+				"frozen_planet_cutscene_3.default_s2_1": "animation.frozen_planet_cutscene_3.default_s2_1",
+				"frozen_planet_cutscene_3.default_s3_0": "animation.frozen_planet_cutscene_3.default_s3_0",
+				"frozen_planet_cutscene_3.default_s3_1": "animation.frozen_planet_cutscene_3.default_s3_1",
+				"frozen_planet_cutscene_3.default_s4_0": "animation.frozen_planet_cutscene_3.default_s4_0",
+				"frozen_planet_cutscene_3.default_s5_0": "animation.frozen_planet_cutscene_3.default_s5_0",
+				"frozen_planet_cutscene_3.default_s5_1": "animation.frozen_planet_cutscene_3.default_s5_1",
+				"frozen_planet_cutscene_3.default_s6_0": "animation.frozen_planet_cutscene_3.default_s6_0",
+				"frozen_planet_cutscene_3.default_s6_1": "animation.frozen_planet_cutscene_3.default_s6_1",
+				"frozen_planet_cutscene_3.default_s7_0": "animation.frozen_planet_cutscene_3.default_s7_0",
+				"frozen_planet_cutscene_3.default_s7_1": "animation.frozen_planet_cutscene_3.default_s7_1",
+				"frozen_planet_cutscene_3.default_s7_2": "animation.frozen_planet_cutscene_3.default_s7_2",
+				"frozen_planet_cutscene_3.default_s8_0": "animation.frozen_planet_cutscene_3.default_s8_0",
+				"frozen_planet_cutscene_3.default_s9_0": "animation.frozen_planet_cutscene_3.default_s9_0",
+				"frozen_planet_cutscene_3.default_controller": "controller.animation.frozen_planet_cutscene_3.default"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"frozen_planet_cutscene_3.default_controller": "q.variant == 0"
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			},
+			"frozen_planet_cutscene_3.default": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"cutscene"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 0
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"frozen_planet_cutscene_3.default": {
+				"add": {
+					"component_groups": [
+						"frozen_planet_cutscene_3.default"
+					]
+				}
+			}
+		}
+	}
+}

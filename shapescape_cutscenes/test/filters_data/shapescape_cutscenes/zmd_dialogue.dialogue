@@ -1,0 +1,34 @@
+settings: wpm=30
+## No sound profiles in this project.
+
+
+actionbar: sound=zmd/female.2.ogg
+    >[Piper] A FRANKENPLUSH!
+actionbar: sound=zmd/female.3.ogg
+    >[Jonah] Correction: Frankenplush's Monster.
+actionbar: sound=zmd/female.4.ogg
+    >[Jonah] Frankenstein was the maker, not the monster itself.
+actionbar: sound=zmd/female.5.ogg
+    >[Piper] Yeah, yeah, smarty-pants. 
+actionbar: sound=zmd/female.6.ogg
+    >[Piper] But maybe Frankenstein was the monster because he created the so-called monster.
+actionbar: sound=zmd/female.7.ogg
+    >[Jonah] No time for philosophy right now!
+actionbar: sound=zmd/female.8.ogg
+    >[Piper] You started it...
+title:
+    >This is a title
+    >This is a subtitle
+tell: time=1
+    >Camera movement in 3
+tell: time=1
+    >Camera movement in 2
+tell: time=1
+    >Camera movement in 1
+camera: time=10
+    10 10 10 90 0
+    5 5 5 30 0
+    5 10 5 0 0
+    5 10 5 0 0
+actionbar:
+    >This is the end of the animation

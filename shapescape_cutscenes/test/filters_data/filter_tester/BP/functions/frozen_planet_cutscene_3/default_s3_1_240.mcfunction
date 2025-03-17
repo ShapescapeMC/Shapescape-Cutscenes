@@ -1,0 +1,2 @@
+titleraw @a actionbar {"rawtext":[{"translate":"dialogue.frozen_planet_cutscene_3.3","with":["\n"]}]}
+titleraw @a actionbar {"rawtext":[{"translate":"dialogue.frozen_planet_cutscene_3.4","with":["\n"]}]}
