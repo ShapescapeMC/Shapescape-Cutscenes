@@ -1,0 +1,1 @@
+git+https://github.com/ShapescapeMC/shapescape-dialogue-2@0.8.0
